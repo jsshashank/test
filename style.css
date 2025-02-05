@@ -1,0 +1,64 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f9fa;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+p.metadata {
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2, h3 {
+    color: #0056a3;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #ccc;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+}
+
+ul {
+    background-color: #eef;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #666;
+}
