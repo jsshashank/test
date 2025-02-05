@@ -3,52 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Blog - Wikipedia Style</title>
+    <title>Simple Blog - Wikipedia Style</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
+    
     <header>
-        <h1>Wikipedia-Themed Blog</h1>
-        <p>The Free Encyclopedia of My Thoughts</p>
-        <hr>
+    
+            <h1><span id="typing"></span></h1>
+     
+        
+        <h1>Simple Blog</h1>
     </header>
 
-    <main>
-        <article>
-            <h2>My First Blog Post</h2>
-            <p class="metadata">Published on <span id="date-time"></span> | Author: John Doe</p>
-            <figure>
-                <img src="images/fuji.jpg"><br>
-<img src="images/woods.webp"><br>
-
-                <img src="bird.jpg">
-                <figcaption>Figure 1: A sample image for the blog.</figcaption>
-            </figure>
-
-            <p><strong>Introduction:</strong> This is a sample blog post designed to look like a Wikipedia article. Wikipedia is one of the most visited websites in the world, offering free knowledge to everyone.</p>
-            
-            <h3>History</h3>
-            <p>The concept of a collaborative encyclopedia existed before Wikipedia, but it was Wikipedia that made it popular with its open-editing system.</p>
-
-            <h3>Features of Wikipedia</h3>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>Contents</h2>
             <ul>
-                <li>Anyone can edit.</li>
-                <li>Millions of articles in various languages.</li>
-                <li>Non-profit and community-driven.</li>
+                <li><a href="#section1">Introduction</a></li>
+                <li><a href="#section2">History</a></li>
+                <li><a href="#section3">Technology</a></li>
+                <li><a href="ai-future-trends.html">Future Trends</a></li>
             </ul>
+        </aside>
 
-            <h3>Conclusion</h3>
-            <p>Wikipedia remains a valuable resource for learning, and this blog post pays tribute to its unique style.</p>
-        </article>
-    </main>
+        <main>
+            <section id="section1">
+                <h2>Introduction</h2>
+                <p>This is a simple Wikipedia-style blog page with smooth animations.</p>
+            </section>
 
-    <footer>
-        <hr>
-        <p>© 2025 My Blog | Inspired by Wikipedia</p>
-    </footer>
+            <section id="section2">
+                <h2>History</h2>
+                <p>Blogging has evolved over the years, starting as personal diaries...</p>
+            </section>
 
-    <script>
-        document.getElementById('date-time').innerText = new Date().toLocaleString();
-    </script>
+            <section id="section3">
+                <h2>Technology</h2>
+                <p>Modern blogs use HTML, CSS, JavaScript, and advanced CMS platforms...</p>
+            </section>
+
+            <section id="section4">
+                <h2>Future Trends</h2>
+                <p>AI-generated content, better SEO, and immersive user experiences...</p>
+            </section>
+        </main>
+    </div>
+
+    <button id="toggleSidebar">☰</button>
 </body>
 </html>
