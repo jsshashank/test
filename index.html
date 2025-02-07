@@ -6,6 +6,25 @@
     <title>Simple Blog - Wikipedia Style</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+<style>
+        /* Center the video */
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px; /* Limit max size */
+            margin: auto;
+            overflow: hidden;
+        }
+
+        /* Make the video responsive */
+        .video-container video {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px; /* Optional: Rounded corners */
+        }
+</style>
+
 </head>
 <body>
     
@@ -29,7 +48,18 @@
         </aside>
 
         <main>
+ <div class="video-container">
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+
             <section id="section1">
+
+
                 <h2>Introduction</h2>
                 <p>This is a simple Wikipedia-style blog page with smooth animations.</p>
             </section>
